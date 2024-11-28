@@ -5,7 +5,7 @@ import './App.css';
 function App() {
 
   const [link, setLink] = useState('');
-  const prefix = 'https://';
+  // const prefix = 'https://';
 
   useEffect(() => {
 
@@ -15,7 +15,7 @@ function App() {
       try {
         const response = await fetch(fileUrl);
         if (response.ok) {
-          console.log("respnse ok");
+          console.log("response ok");
           const linkText = await response.text();
           setLink(linkText);
         } else {
