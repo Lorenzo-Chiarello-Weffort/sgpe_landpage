@@ -35,7 +35,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (directLink != '') {
+    if (directLink !== '') {
       window.location.href = directLink;
     }
     else if (link) {
