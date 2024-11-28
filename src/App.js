@@ -10,8 +10,8 @@ function App() {
   useEffect(() => {
 
     const useDirect = true;
-    const directUrl = 'https://1514fbe6f4a0cee9d3b0bb34b1a46989.serveo.net/codigo_fonte';
-    const fileUrl = 'https://1514fbe6f4a0cee9d3b0bb34b1a46989.serveo.net/codigo_fonte';
+    const directUrl = 'https://b462e232aea0bbd4b3acff075a36418c.serveo.net/codigo_fonte';
+    const fileUrl = 'https://gist.githubusercontent.com/Lorenzo-Chiarello-Weffort/1fd5eb4e4a76a3b18101b78c94f5040b/raw/d494cc60ad18fe074169854e85c6cd4158cb600e/redirect_url.txt';
 
     const fetchLink = async () => {
       if (useDirect) {
