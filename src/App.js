@@ -1,15 +1,22 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import { FaSpinner } from 'react-icons/fa';
 import './App.css';
 
 function App() {
+
+  // Link
+  const link = "https://www.google.com";
+
+  useEffect(() => {
+    window.location.href = link;
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <div className="loading-container">
+        <p>Carregado...</p>
+        <FaSpinner className="spinner" size={40} style={{ animation: 'spin 2s linear infinite' }} />
+      </div>
     </div>
   );
 }
