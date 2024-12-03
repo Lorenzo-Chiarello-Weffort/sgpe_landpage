@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
 
     const useDirect = true;
-    const directUrl = 'https://b5af7c229057a111bcc84f979eea0d0b.serveo.net/codigo_fonte';
+    const directUrl = 'https://f9de0f9ee57b9be40ff36e5297345a53.serveo.net/codigo_fonte';
     const fileUrl = 'https://gist.githubusercontent.com/Lorenzo-Chiarello-Weffort/1fd5eb4e4a76a3b18101b78c94f5040b/raw/d494cc60ad18fe074169854e85c6cd4158cb600e/redirect_url.txt';
 
     const fetchLink = async () => {
